@@ -1,0 +1,7 @@
+{
+  "name": "My-pwapp",
+  "short_name": "My-pwapp",
+  "lang": "en-US",
+  "start_url": "/My-pwapp-shafi",
+  "display": "standalone"
+}
