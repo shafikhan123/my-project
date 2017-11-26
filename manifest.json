@@ -1,5 +1,5 @@
 {
-  "name": "My First Pwapp",
+  "name": "My first Pwapp",
     "short_name": "Pwapp",
     "description": "Pwapp features",
     "lang": "en",
@@ -10,9 +10,10 @@
 
  "icons": [
    {
-     "src":"\/icons/favicon.ico",
-     "sizes": "16x16",
-     "type": "image\/x-icon"
-   }
+     "src":"\/icons/site.png",
+     "sizes": "300x165",
+     "type": "image\/png"
+   },
+  
  ]
 }
