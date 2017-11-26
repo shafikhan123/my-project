@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="manifest" href="manifest.json">
-<link rel="icon" size="16x16" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" size="16x16" href="favicon.ico" type="image/x-icon">
 
 
 <meta name="mobile-web-app-capable" content="yes">
@@ -21,19 +21,20 @@
 <meta name="apple-mobile-web-app-title" content="My-pwapp">
 <meta name="msapplication-starturl" content="/My-pwapp-shafi">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="manup.js"></script>
+	<script src="sw-toolbox.js"></script>
 	<script>
-if ('serviceWorker' in navigator) { 
-  window.addEventListener('load', function() {   
-    navigator.serviceWorker.register('sw.js').then(
-      function(registration) { 
-        // Registration was successful
-        console.log('ServiceWorker registration successful with scope: ', registration.scope); }, 
-      function(err) { 
-        // registration failed :( 
-        console.log('ServiceWorker registration failed: ', err); 
-      }); 
+if (navigator.serviceWorker.controller) {
+  console.log('[PWA Builder] active service worker found, no need to register')
+} else {
+  //Register the ServiceWorker
+  navigator.serviceWorker.register('sw.js', {
+    scope: './'
+  }).then(function(reg) {
+    console.log('Service worker has been registered for scope:'+ reg.scope);
   });
 }
+
 </script>
 Add sw-toolbox to your project. You just need to add this file to your root 
 	
