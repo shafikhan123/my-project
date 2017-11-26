@@ -1,7 +1,8 @@
 {
-  "name": "My-pwapp",
-  "short_name": "My-pwapp",
-  "lang": "en-US",
-  "start_url": "/My-pwapp-shafi",
-  "display": "standalone"
+    "name": "My-pwapp",
+    "short_name": "Mypwapp",
+    "start_url": "https://shafikhan123.github.io/My-pwapp-shafi",
+    "display": "standalone",
+    "icons": [],
+    "orientation": "any"
 }
