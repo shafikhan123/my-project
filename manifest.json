@@ -4,7 +4,7 @@
     "description": "Pwapp features",
     "lang": "en",
     "start_url": "/",
-    "display": "standalone"
+    "display": "standalone",
 
 "icons": [
   {
