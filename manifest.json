@@ -1,8 +1,8 @@
 {
-  "name": "My first Pwapp",
-    "short_name": "Pwapp",
-    "description": "Pwapp features",
-    "lang": "en",
+  "name": "Web Community Leaders UK IE",
+    "short_name": "Web Leaders",
+    "description": "Web Community Leaders landing page",
+    "lang": "en-GB",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#E6E6FA",
