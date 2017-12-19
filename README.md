@@ -1,5 +1,4 @@
-# webcommunityukie.github.io
+# PWAPP
 
-Icon adapted from https://thenounproject.com/term/global-community/986374/
 
-Website based off http://goldsmiths.tech/ 
+Website url: https://shafikhan123.github.io/my-project/ 
